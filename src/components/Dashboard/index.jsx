@@ -24,7 +24,7 @@ function Dashboard() {
           ))}
         </div>
         <div className="w-[631px] min-h-[304px] bg-custom-gradient rounded-[15px] p-[15px]">
-          <h4 className="text-primary">My Wallet</h4>
+          <h4 className="text-primary font-bold">My Wallet</h4>
           <div className="flex items-center mt-[30px] min-h-[36.34px]">
             <StarIcon />
             <p className="text-secondary font-bold w-[403.05px]  text-[28px] ml-[15px]">
@@ -50,11 +50,13 @@ function Dashboard() {
             </div>
           </div>
           <div className="mt-[15px] flex items-center gap-x-[10px]">
-           <Button 
-           className="w-[177.26px] h-[34px] text-primary rounded-[8px]"
-            title={'Withdraw Oli Balance'}
-           />
-           <p className="text-[12px] text-primary">Withdraw your Oli balance securely to your selected address</p>
+            <Button
+              className="w-[177.26px] h-[34px] text-primary rounded-[8px]"
+              title={"Withdraw Oli Balance"}
+            />
+            <p className="text-[12px] text-primary">
+              Withdraw your Oli balance securely to your selected address
+            </p>
           </div>
         </div>
       </div>

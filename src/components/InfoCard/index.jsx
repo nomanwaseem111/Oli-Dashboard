@@ -4,7 +4,7 @@ const InfoCard = ({ title, description, value, unit, total, index, icon }) => {
     <div className="w-[298px] min-h-[137px] bg-[#25283D] rounded-[15px] p-[15px]">
       <div className="flex justify-between items-center">
         <div>
-          <h2 className="text-primary text-bold">{title}</h2>
+          <h2 className="text-primary font-bold">{title}</h2>
           <p className="text-primary text-[12px]">{description}</p>
         </div>
         <img src={icon} alt="icon" />

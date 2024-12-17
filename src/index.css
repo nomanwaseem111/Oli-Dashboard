@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.course-activities::-webkit-scrollbar {
+  display: none;
+}
+
+hr {
+  height: 1px;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+}
